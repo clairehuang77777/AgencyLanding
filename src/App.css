@@ -8,6 +8,20 @@
   height: 50px;
 }
 
+.logo1 {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.kv-orange {
+  background: url("https://i.ibb.co/hRzDJxSR/image-header.jpg");
+  width: 375px;
+  height: 500px;
+  object-fit: cover;
+  background-position: bottom;
+}
+
 /* 隱藏 checkbox */
 .menu-checkbox {
   display: none;
@@ -15,12 +29,6 @@
 
 .menu {
   display: none;
-}
-
-.logoSvg{
-  width: 90px;
-  margin-top: 25px;
-  margin-left: 20px;
 }
 
 .menu-icon {
@@ -44,12 +52,14 @@
 
 .menu-checkbox:checked~.menu {
   position: absolute;
-  top: 60px;
-  left: 225px;
-  display: block;
-  z-index: 99;
-  background-color: white;
-  color: #3fbfff;
+    top: 80px;
+    left: 35px;
+    display: block;
+    z-index: 99;
+    background-color: white;
+    color: #3fbfff;
+    width: 320px;
+    height: 250px;
 }
 
 ul {
@@ -58,6 +68,7 @@ ul {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 40px;
 }
 
 li {
@@ -87,7 +98,6 @@ img {
   position: absolute;
   z-index: 5;
   top: 100px;
-  left: 50px;
   text-align: center;
   color: white;
   font-family: "Fraunces", serif;
@@ -127,6 +137,38 @@ img {
   align-items: center;
 }
 
+.egg-photo {
+  background-image: url("https://i.ibb.co/DgwTjg29/image-transform.jpg");
+  width: 375px;
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+}
+
+.glass-photo {
+  background-image: url("https://i.ibb.co/G3MXwZgZ/image-stand-out.jpg");
+  width: 375px;
+  height: 300px;
+  background-position: center;
+  background-size: contain;
+}
+
+.cherry-area {
+  background-image: url("https://i.ibb.co/xqj1gYj2/image-graphic-design.jpg");
+  width: 375px;
+  height: 600px;
+  background-position: center;
+  background-size: contain;
+}
+
+.orange-area {
+  background-image: url("https://i.ibb.co/yBNjhRq3/image-photography.jpg");
+  width: 375px;
+  height: 600px;
+  background-position: center;
+  background-size: contain;
+}
+
 .egg-text-1,
 .glass-text-1 {
   font-family: "Abril Fatface", serif;
@@ -159,6 +201,10 @@ img {
     "WONK" 0;
   margin-top: 20px;
   margin-bottom: 50px;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 0px;
 }
 
 
@@ -294,24 +340,47 @@ img {
   margin-bottom: 30px;
 }
 
+.four-grid {
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .four-grid-area-milk {
   grid-area: milk;
   width: 187.5px;
+  background-image: url("https://i.ibb.co/4ZSxryYt/image-gallery-milkbottles.jpg");
+  height: 187.5px;
+  background-position: center;
+  background-size: contain;
 }
 
 .four-grid-area-orange {
   grid-area: orange;
   width: 187.5px;
+  background-image: url("https://i.ibb.co/qqTgXYn/image-gallery-orange.jpg");
+  height: 187.5px;
+  background-position: center;
+  background-size: contain;
 }
 
 .four-grid-area-icecream {
   grid-area: icecream;
   width: 187.5px;
+  background-image: url("https://i.ibb.co/HLmZq9Yk/image-gallery-cone.jpg");
+  height: 187.5px;
+  background-position: center;
+  background-size: contain;
 }
 
 .four-grid-area-whitebox {
   grid-area: whitebox;
   width: 187.5px;
+  background-image: url("https://i.ibb.co/B5P7qSz5/image-gallery-sugar-cubes.jpg");
+  height: 187.5px;
+  background-position: center;
+  background-size: contain;
 }
 
 .four-grid-area {
@@ -351,22 +420,337 @@ img {
   padding: 0;
 }
 
-.logo{
-  width:90px;
-  margin-top:50px;
-
+.footer {
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.fblogo,
-.iglogo,
-.twitterlogo,
-.pinterestlogo{
-  width: 20px;
-  height: 20px;
-  padding-right: 20px;
+.logo2 {
+  width: 150px
+}
+
+.footer-title {
+  margin-top: 130px;
 }
 
 .footer-tab,
-.footer-link{
-  padding-top: 20px;
+.footer-link {
+  margin-top: 30px;
+}
+
+.footer-tab a{
+  padding-right: 15px;
+}
+
+.footer-link-fb,
+.footer-link-IG,
+.footer-link-Twitter,
+.footer-link-pinterest {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+
+@media screen and (min-width: 900px) {
+  .logo1{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .kv-orange {
+    grid-area: kv
+  }
+
+  .egg-photo {
+    grid-area: egg-photo
+  }
+
+  .egg-text {
+    grid-area: egg-text
+  }
+
+  .glass-photo {
+    grid-area: glass-photo
+  }
+
+  .glass-text {
+    grid-area: glass-text
+  }
+
+  .cherry-area {
+    grid-area: cherry-area
+  }
+
+  .orange-area {
+    grid-area: orange-area
+  }
+
+  .client-area {
+    grid-area: client-area
+  }
+
+  .four-grid {
+    grid-area: four-grid
+  }
+
+  .four-grid-area-milk {
+    grid-area: four-grid-area-milk
+  }
+
+  .four-grid-area-orange {
+    grid-area: four-grid-area-orange
+  }
+
+  .four-grid-area-icecream {
+    grid-area: four-grid-area-icecream
+  }
+
+  .four-grid-area-whitebox {
+    grid-area: four-grid-area-whitebox
+  }
+
+  .footer {
+    grid-area: footer
+  }
+
+  .header {
+    grid-area: header
+  }
+
+  .client-title {
+    grid-area: client-title
+  }
+
+  .container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 50px 480px 410px 410px 440px 200px 350px 440px 380px;
+    grid-template-areas:
+      "header header header header"
+      "kv kv kv kv"
+      "egg-text egg-text egg-photo egg-photo"
+      "glass-photo glass-photo glass-text glass-text"
+      "cherry-area cherry-area orange-area orange-area"
+      "client-title client-title client-title client-title"
+      "client-area client-area client-area client-area"
+      "four-grid four-grid four-grid four-grid"
+      "footer footer footer footer"
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    left: 1000px;
+    top: 0px;
+    position: absolute;
+  }
+
+  ul {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  a {
+    color: white;
+    padding-right: 40px;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .kv-orange {
+    width: 100vw;
+    height: 480px;
+    background-image: url("https://i.ibb.co/nM0FFkZS/image-header.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .kv-text {
+    position: relative;
+    left: 0px;
+    font-size: 4.3rem;
+  }
+
+  .kv-text-arrow {
+    position: relative;
+    left: 0px;
+    top: 15px;
+  }
+
+  .egg-photo {
+    width: 50vw;
+    background-position: center;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/2YKdmGsq/image-transform.jpg");
+    background-size: cover;
+  }
+
+  .glass-photo {
+    background-image: url("https://i.ibb.co/cKjBdYc6/image-stand-out.jpg");
+    width: 50vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    height: 410px;
+  }
+
+  .egg-text,
+  .glass-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+  }
+
+  .egg-text-1,
+  .egg-text-2,
+  .egg-text-3,
+  .glass-text-1,
+  .glass-text-2,
+  .glass-text-3 {
+    width: 340px;
+    text-align: left;
+  }
+
+  .cherry-area {
+    background-image: url("https://i.ibb.co/FPHV4Wq/image-graphic-design.jpg");
+    width: 50vw;
+    background-position: top;
+    background-size: cover;
+    height: 440px;
+    background-repeat: no-repeat;
+  }
+
+  .orange-area {
+    background-image: url("https://i.ibb.co/TBP6hmWS/image-photography.jpg");
+    width: 50vw;
+    background-position: top;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cherry-text-1 {
+    top: 290px;
+    left: 280px;
+  }
+
+  .orange-text-1 {
+    top: 290px;
+    left: 300px;
+  }
+
+  .cherry-text-2 {
+    top: 350px;
+    left: 50px;
+  }
+
+  .orange-text-2 {
+    top: 350px;
+    left: 50px;
+  }
+
+  .client-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  .client-title {
+    font-size: 2rem;
+    width: 100vw;
+    height: 200px;
+  }
+
+  .client-1,
+  .client-2,
+  .client-3 {
+    width: 350px;
+  }
+
+  .four-grid {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .four-grid-area-milk {
+    width: 25vw;
+    height: 440px;
+    background-image: url("https://i.ibb.co/Z64mmDFc/image-gallery-milkbottles.jpg");
+    background-position: center;
+    object-fit: cover;
+  }
+
+
+  .four-grid-area-orange {
+    width: 25vw;
+    height: 440px;
+    background-image: url("https://i.ibb.co/xbfDLTQ/image-gallery-orange.jpg");
+    background-position: center;
+    object-fit: cover;
+  }
+
+  .four-grid-area-icecream {
+    width: 25vw;
+    height: 440px;
+    background-image: url("https://i.ibb.co/CKP8fKXg/image-gallery-cone.jpg");
+    background-position: center;
+    object-fit: cover;
+  }
+
+  .four-grid-area-whitebox {
+    width: 25vw;
+    height: 440px;
+    background-image: url("https://i.ibb.co/bR1HybDs/image-gallery-sugarcubes.jpg");
+    background-position: center;
+    object-fit: cover;
+  }
+
+  .footer {
+    width: 100vw;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo2{
+    width:150px
+
+  }
+
+  .footer-title{
+    margin-top:130px;
+  }
+
+  .footer-tab,
+  .footer-link{
+    margin-top: 30px;
+  }
+
+  .footer-link-fb,
+  .footer-link-IG,
+  .footer-link-Twitter,
+  .footer-link-pinterest{
+    width: 30px;
+    height: 30px;
+  }
 }
