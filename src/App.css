@@ -1,0 +1,372 @@
+.container {
+  width: 375px;
+}
+
+.header {
+  width: 375px;
+  background-color: #3fbfff;
+  height: 50px;
+}
+
+/* 隱藏 checkbox */
+.menu-checkbox {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.logoSvg{
+  width: 90px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  width: 30px;
+  position: absolute;
+  top: 25px;
+  left: 330px;
+  z-index: 100;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.menu-checkbox:checked~.menu {
+  position: absolute;
+  top: 60px;
+  left: 225px;
+  display: block;
+  z-index: 99;
+  background-color: white;
+  color: #3fbfff;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #3fbfff;
+}
+
+
+
+img {
+  width: 375px;
+}
+
+/*KV-parts*/
+.kv-orange {
+  position: relative;
+  vertical-align: bottom;
+}
+
+.kv-text {
+  position: absolute;
+  z-index: 5;
+  top: 100px;
+  left: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+}
+
+.kv-text-arrow {
+  position: absolute;
+  z-index: 5;
+  top: 190px;
+  left: 145px;
+  text-align: center;
+  color: white;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  font-size: 6rem;
+  letter-spacing: .2rem;
+}
+
+.egg-text,
+.glass-text {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.egg-text-1,
+.glass-text-1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.egg-text-2,
+.glass-text-2 {
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-right: 15px;
+  margin-left: 15px;
+  line-height: 1.5;
+}
+
+.egg-text-3,
+.glass-text-3 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.cherry-area {
+  position: relative;
+}
+
+.cherry-img,
+.orange-img,
+.egg-photo {
+  vertical-align: bottom;
+}
+
+.cherry-text-1 {
+  position: absolute;
+  top: 370px;
+  left: 100px;
+  font-size: 1.5rem;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cherry-text-2 {
+  position: absolute;
+  top: 430px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.orange-area {
+  position: relative;
+}
+
+.orange-text-1 {
+  position: absolute;
+  top: 370px;
+  left: 120px;
+  font-size: 1.5rem;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orange-text-2 {
+  position: absolute;
+  top: 430px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.client-title,
+.client-1,
+.client-2,
+.client-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client-1-photo,
+.client-2-photo,
+.client-3-photo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.client-title {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  letter-spacing: .4rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.client-1-word,
+.client-2-word,
+.client-3-word,
+.client-1-position,
+.client-2-position,
+.client-3-position {
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.client-1-word,
+.client-2-word,
+.client-3-word {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.client-1-name,
+.client-2-name,
+.client-3-name {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.client-1-position,
+.client-2-position,
+.client-3-position {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.four-grid-area-milk {
+  grid-area: milk;
+  width: 187.5px;
+}
+
+.four-grid-area-orange {
+  grid-area: orange;
+  width: 187.5px;
+}
+
+.four-grid-area-icecream {
+  grid-area: icecream;
+  width: 187.5px;
+}
+
+.four-grid-area-whitebox {
+  grid-area: whitebox;
+  width: 187.5px;
+}
+
+.four-grid-area {
+  width: 375px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "milk orange"
+    "icecream whitebox"
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(168, 34%, 41%);
+  height: 200px;
+
+}
+
+
+.footer-tab a {
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.9rem;
+}
+
+.egg-photo,
+.glass-photo {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width:90px;
+  margin-top:50px;
+
+}
+
+.fblogo,
+.iglogo,
+.twitterlogo,
+.pinterestlogo{
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.footer-tab,
+.footer-link{
+  padding-top: 20px;
+}
