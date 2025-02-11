@@ -1,9 +1,9 @@
 .container {
-  width: 375px;
+  width: 100vw;
 }
 
 .header {
-  width: 375px;
+  width: 100vw;
   background-color: #3fbfff;
   height: 50px;
 }
@@ -16,7 +16,7 @@
 
 .kv-orange {
   background: url("https://i.ibb.co/hRzDJxSR/image-header.jpg");
-  width: 375px;
+  width: 100vw;
   height: 500px;
   object-fit: cover;
   background-position: bottom;
@@ -39,7 +39,7 @@
   width: 30px;
   position: absolute;
   top: 25px;
-  left: 330px;
+  right:20px;
   z-index: 100;
 }
 
@@ -85,7 +85,7 @@ a {
 
 
 img {
-  width: 375px;
+  width: 100vw;
 }
 
 /*KV-parts*/
@@ -131,7 +131,7 @@ img {
 
 .egg-text,
 .glass-text {
-  width: 375px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,7 +139,7 @@ img {
 
 .egg-photo {
   background-image: url("https://i.ibb.co/DgwTjg29/image-transform.jpg");
-  width: 375px;
+  width: 100vw;
   height: 300px;
   background-position: center;
   background-size: contain;
@@ -147,7 +147,7 @@ img {
 
 .glass-photo {
   background-image: url("https://i.ibb.co/G3MXwZgZ/image-stand-out.jpg");
-  width: 375px;
+  width: 100vw;
   height: 300px;
   background-position: center;
   background-size: contain;
@@ -155,18 +155,18 @@ img {
 
 .cherry-area {
   background-image: url("https://i.ibb.co/xqj1gYj2/image-graphic-design.jpg");
-  width: 375px;
+  width: 100vw;
   height: 600px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .orange-area {
   background-image: url("https://i.ibb.co/yBNjhRq3/image-photography.jpg");
-  width: 375px;
+  width: 100vw;
   height: 600px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .egg-text-1,
@@ -341,7 +341,7 @@ img {
 }
 
 .four-grid {
-  width: 375px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -349,42 +349,42 @@ img {
 
 .four-grid-area-milk {
   grid-area: milk;
-  width: 187.5px;
+  width: 50vw;
   background-image: url("https://i.ibb.co/4ZSxryYt/image-gallery-milkbottles.jpg");
   height: 187.5px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .four-grid-area-orange {
   grid-area: orange;
-  width: 187.5px;
+  width: 50vw;
   background-image: url("https://i.ibb.co/qqTgXYn/image-gallery-orange.jpg");
   height: 187.5px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .four-grid-area-icecream {
   grid-area: icecream;
-  width: 187.5px;
+  width: 50vw;
   background-image: url("https://i.ibb.co/HLmZq9Yk/image-gallery-cone.jpg");
   height: 187.5px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .four-grid-area-whitebox {
   grid-area: whitebox;
-  width: 187.5px;
+  width: 50vw;
   background-image: url("https://i.ibb.co/B5P7qSz5/image-gallery-sugar-cubes.jpg");
   height: 187.5px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .four-grid-area {
-  width: 375px;
+  width: 100vw;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
