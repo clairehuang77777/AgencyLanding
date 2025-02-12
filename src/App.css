@@ -59,7 +59,7 @@
     background-color: white;
     color: #3fbfff;
     width: 320px;
-    height: 250px;
+    height: 160px;
 }
 
 ul {
@@ -527,7 +527,7 @@ img {
     width: 100vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 50px 480px 410px 410px 440px 200px 350px 440px 380px;
+    grid-template-rows: 50px 480px 410px 410px 540px 200px 350px 440px 380px;
     grid-template-areas:
       "header header header header"
       "kv kv kv kv"
@@ -633,38 +633,34 @@ img {
     width: 50vw;
     background-position: top;
     background-size: cover;
-    height: 440px;
+    height: 540px;
     background-repeat: no-repeat;
+
   }
 
   .orange-area {
     background-image: url("https://i.ibb.co/TBP6hmWS/image-photography.jpg");
     width: 50vw;
     background-position: top;
-    height: 440px;
+    height: 540px;
     background-repeat: no-repeat;
     background-size: cover;
+      /* 精確置中 */
   }
 
-  .cherry-text-1 {
-    top: 290px;
-    left: 320px;
-  }
 
-  .orange-text-1 {
-    top: 290px;
-    left: 320px;
-  }
 
-  .cherry-text-2 {
-    top: 350px;
-    left: 50px;
-  }
-
+  .cherry-text-1,
+  .orange-text-1,
+  .cherry-text-2,
   .orange-text-2 {
-    top: 350px;
-    left: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left:auto;
   }
+
+
 
   .client-area {
     display: flex;
