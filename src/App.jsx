@@ -17,10 +17,10 @@ function App() {
       </label>
       <nav className="menu">
         <ul>
-          <li><a href="#">MAIN</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICE</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a className="menuhref" href="#">MAIN</a></li>
+          <li><a className="menuhref" href="#">ABOUT</a></li>
+          <li><a className="menuhref" href="#">SERVICE</a></li>
+          <li><a className="menuhref" href="#">CONTACT</a></li>
         </ul>
       </nav>
     </div>

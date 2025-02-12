@@ -68,7 +68,6 @@ ul {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 40px;
 }
 
 li {
@@ -565,7 +564,6 @@ img {
 
   a {
     color: white;
-    padding-right: 40px;
   }
 
   .header {
@@ -650,12 +648,12 @@ img {
 
   .cherry-text-1 {
     top: 290px;
-    left: 280px;
+    left: 320px;
   }
 
   .orange-text-1 {
     top: 290px;
-    left: 300px;
+    left: 320px;
   }
 
   .cherry-text-2 {
@@ -752,5 +750,10 @@ img {
   .footer-link-pinterest{
     width: 30px;
     height: 30px;
+    padding-right: 10px;
+  }
+
+  .menuhref{
+    padding-right: 40px;
   }
 }
